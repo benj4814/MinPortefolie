@@ -88,7 +88,7 @@ section .title::after{
     background: lightskyblue;
 }
 .logo {
-  max-width: 30%;
+  max-width: 20%;
 }
 .navbar.sticky{
     padding: 15px 0;
