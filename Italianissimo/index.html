@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/lightslider.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
+    <!--Jquery-->
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <title>italianissimo | Forside</title>
+    <meta name="description" content="Hos Italianissimo har vi en stor kærlighed til Italien
+    og har forsøgt at bringe det solbeskinnede Italien til Aarhus igennem specialiteter,
+    som man ellers kun kender dem fra små bondebyer i det italienske bakkelandskab.">
+    <meta name="keywords" content="italien, italienske, italy, itelian, delikatesser, delikatesse, delikatese, special, frisk, pasta, tapas, takeaway, ost, salami, pølse, kaffe, strolghino, fiocca, felina, cappa,">
+    
+
+  </head>
+<body>
+
+<!-- Navigering -->
+
+<header class="header">
+  <a href="#forside" class="logo"><img src="img/logo.png" alt="Logo"></a>
+  <div class="menu-btn"></div>
+  <div class="nav">
+    <div class="nav-items">
+      <a href="#forside">Forside</a>
+      <a href="#takeaway">Mad ud af huset</a>
+      <a href="#udvalg">Udvalg</a>
+      <a href="#kontakt">Kontakt</a>
+    </div>
+  </div>
+  <div id="visitKort">
+    <a href="https://qrco.de/bcCHo8" target="_blank">
+    <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()"
+     src="img/visitkort.png" class="visitimg" alt="visitkort">
+    </a>
+    </div>
+
+</header>
+
+<!-- Landingpage Video -->
+
+<section class="forside" id="forside">
+
+  <video src="/img/Italianissimo-Brand-Video.mp4" alt="Stemningsvideo af italianissimo" autoplay muted loop></video>
+
+  <div class="content">
+    <h1>Velkommen til<br><span>italianissimo</span></h1>
+    <p>
+      Hos Italianissimo har vi en stor kærlighed til Italien
+      <br>
+      og har forsøgt at bringe det solbeskinnede Italien til Aarhus igennem specialiteter, 
+      <br>
+      som man ellers kun kender dem fra små bondebyer i det italienske bakkelandskab.
+    </p>
+    <a href="#takeaway">Læs mere</a>
+  </div>
+
+  <!-- Social Media Ikoner -->
+
+  <div class="media-icons">
+    <a href="https://www.facebook.com/italianissimoaarhus" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/italianissimoaarhus/" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</section>
+
+<!-- Takeaway -->
+
+<div class="takeaway" id="takeaway">
+
+  <h1>Mad ud af huset</h1>
+
+  <div class="takeaway-content">
+    <p>
+      Står du og skal have gæster til reception, fødselsdag, barnedåb, studentergilde eller 
+      hvad som helst andet måske bare en ganske 
+      almindelig hverdag, men ikke selv har tid eller lyst til at lave
+      maden. Så bestil hos os, vi hjælper gerne med forskelligt til en vaske
+      ægte italiensk aften.
+    <br>
+    <br>
+      Vil du være sikker på at få maden fra os, så bestil i god tid. Vi kan være nødt til at lukke for bestilling i travle 
+      perioder da vi meget nødigt vil gå på kompromis med kvaliteten.
+    <br>
+    <br>
+      Vi er fleksibele og kreative og indgår altid gerne i dialog om netop 
+      jeres arrangement. Så er du i tvivl eller har du brug for hjælp til at sammensætte en menu så er du velkommen 
+      til at kontakte os enten på mail post@italianissimo.dk eller telefon 86 13 02 52 – eller bare stoppe forbi butikken.
+      Vi glæder os til at høre fra dig.
+    <br>
+    <br>
+      <a style="font-weight: bold;">
+        HUSK.....Til daglig laver vi sandwich, kaffe og Affetati misti (Tapas) som alt sammen kan nydes i forretningen 
+        eller tages med.
+      </a>
+    </p>
+
+    <img src="img/takeaway.jpeg" alt="Lækker Tapas">
+
+  </div>
+</div>
+
+<!-- Takeaway Billeder -->
+
+<div class="row">
+  <div>
+    <img src="/img/mad1.jpeg" alt="salat">
+  </div>
+  <div>
+    <img src="/img/mad2.JPG" alt="kage">
+  </div>
+  <div>
+    <img src="/img/mad3.JPG" alt="tapas">
+  </div>
+  <div>
+    <img src="/img/mad4.JPG" alt="salat2">
+  </div>
+</div>
+
+<!-- Menukort og Infographic -->
+
+<div class="menu-info">
+  <iframe src="menukort.html" frameborder="0"></iframe>
+
+  <img src="/img/Infographic.png" alt="Infographic af en sandwich fra Italianissimo">
+</div>
+
+<!-- Udvalg -->
+
+<h1 class="udvalg-titel">Vores udvalg</h1>
+
+<!-- Udvalg kort -->
+
+<div class="container" id="udvalg">
+  <ul id="autoWidth" class="cs-hidden">
+
+    <!-- Slider Box 1 -->
+
+    <li>
+      <div class="box">
+        <h1>Strolghino</h1>
+        <img src="/img/udvalg/strolghino-di-culatello.png" alt="Strolghino di Culatello">
+        <div>
+          <p>
+            Strolghino af saltet svinekød er en lille salami, som er let at skære og som hurtigt er spist som snack. 
+            <br>
+            Skær den i tykke skiver, der smelter i munden. Modnet i 20 dage.
+          </p>
+          <p>Vejer ca. 190 gram</p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Slider Box 2 -->
+
+    <li>
+      <div class="box">
+        <h1>Fiocco</h1>
+        <img src="/img/udvalg/fiocco-vom-ravanettl.png" alt="Fiocco Vom Ravanettl">
+        <div>
+          <p>
+            En af de mest værdsatte saltede kød, de Fiocco er en relativ af culatello.
+            Den er modnet i otte måneder hvor den har lagt i saltlage. Kødet er af den fineste kvalitet
+          </p>
+          <p>Vejer ca. 900 gram</p>
+        </div>
+      </div>
+    </li>
+  
+    <!-- Slider Box 3 -->
+
+    <li>
+      <div class="box">
+        <h1>Felino</h1>
+        <img src="/img/udvalg/felino-salami.png" alt="Felino Salami">
+        <div>
+          <p>
+            Salami er fremragende som en appetitvækker, 
+            den passer godt sammen med skinke og culatello og
+             er fremragende til brug i sandwiches. 
+            Den har en sød, delikat smag og en intens duft.
+          </p>
+          <p>Vejer ca. 500 gram</p>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Slider Box 4 -->
+
+    <li>
+      <div class="box">
+        <h1>Coppa di Parma</h1>
+        <img src="/img/udvalg/coppa-di-parma.png" alt="Coppa Di Parma">
+        <div>
+          <p>
+            Det saftige stykke kød coppa har krydret 
+            i 2 måneder. Kødet sidder på den muskuløse 
+            del af nakken. Kødet hænger i mindt 60 dage
+            hvor det får sin duft og aroma.
+          </p>
+          <p>Vejer ca. 2 kg</p>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Slider Box 5 -->
+
+    <li>
+      <div class="box">
+        <h1>Økologisk Parmigiano</h1>
+        <img src="/img/udvalg/oeko-parmigiano.PNG" alt="Øko Parmigiano">
+        <div>
+          <p>
+              En mild parmesanost, modnet i 12 måneder og derfor god til nogen der skal smage parmesan for første gang. 
+              Denne er nem at skære ud, så den passer i madpakken, intet smulder.
+          </p>
+          <p>1042 Gram.</p>
+        </div>
+      </div>
+    </li>
+
+
+    <!-- Slider Box 6 -->
+
+    <li>
+      <div class="box">
+        <h1>Parmigiano Reggiano</h1>
+        <img src="/img/udvalg/parmigiano-reggiano.PNG" alt="Parmigiano Reggiano">
+        <div>
+          <p>
+            Parmigiano Reggiano, modnet i 24 måneder, typisk strågul farve, der kommer fra en hø baseret kvæg.  
+            Godt ved at kombinere den med sød friske frugt, syltetøj som abrikoser, jordbær.
+          </p>
+          <p>980 - 1000 Gram.</p>
+        </div>
+      </div>
+    </li>
+
+
+    <!-- Slider Box 7 -->
+
+    <li>
+      <div class="box">
+        <h1>Bonat</h1>
+        <img src="/img/udvalg/bonat.PNG" alt="Bonat">
+        <div>
+          <p>
+            Bonat er lagret i 4 år.  Køerne fodres med frisk græs og hø, tilsat forskellige urter, 
+            der tilføre osten en helt unik smag med store sprøde krystaller og bruges af de bedste kokke i verden.
+          </p>
+          <p>990 - 1010 Gram.</p>
+        </div>
+      </div>
+    </li>
+
+
+    <!-- Slider Box 8 -->
+
+    <li>
+      <div class="box">
+        <h1>Bella Lodi Black</h1>
+        <img src="/img/udvalg/bella-lodi-black-classico.PNG" alt="Bella Lodi Black Classico">
+        <div>
+          <p>
+            Bella Lodi er en laktosefri parmesanost, den har nogle bitte små krystaller, meget delikat, 
+            lækker blød parmesan fra et spændene område Lodi
+          </p>
+          <p>940 - 1000 Gram.</p>
+        </div>
+      </div>
+    </li>
+
+
+    <!-- Slider Box 9 -->
+
+    <li>
+      <div class="box">
+        <h1>Amarone 2013</h1>
+        <img src="/img/udvalg/amarone.PNG" alt="Amarone">
+        <div>
+          <p>
+            Denne fantastiske Amarone må du ikke snyde dig selv for at smage. Den har vundet i maj 2018 prisen som årets bedste Amarone, 
+            med sin friske stref af peber og lækre finish af frugt.
+          </p>
+          <p>75 cl. - 15.5%</p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Slider Box 10 -->
+
+    <li>
+      <div class="box">
+        <h1>Antico Ceppo Tres</h1>
+        <img src="img/udvalg/antico-ceppo.PNG" alt="Antico Ceppo">
+        <div>
+          <p>
+            Antico Ceppo er sammensat af 3 druer hefra navnet tres. 
+            Denne blanding giver en harmonisk, intes og kraftig smag af modne blommer og mørk frugt.
+          </p>
+          <p>75 cl. - 13%</p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Slider Box 11 -->
+
+    <li>
+      <div class="box">
+        <h1>Montalcino</h1>
+        <img src="img/udvalg/la-magia-brunello-di-montalcino.PNG" alt="La Magia Brunello Di  Montalcino">
+        <div>
+          <p>
+            Denne fantastiske vin fra Fabian Schwarz
+            har utroligt meget drøn på smagen
+            og kompleksiteten uden at miste balancen.
+            Den er mørk og intens i glasset og er fyldig i munden.
+          </p>
+          <p>75 cl. - 14%</p>
+        </div>
+      </div>
+    </li>
+
+    <!-- Slider Box 12 -->
+
+    <li>
+      <div class="box">
+        <h1>Tenuta Sette Crognola</h1>
+        <img src="/img/udvalg/crognolo.PNG" alt="Crognolo">
+        <div>
+          <p>
+            Italienerne kalder Crognolo "The Tignanello Killer", fordi vinen har samme - 
+            eller endda bedre ratings end den verdensberømte Tignanello. 
+            <br>
+            Fyldig og velafbalanceret.
+          </p>
+          <p>75 cl. - 14%</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<h1 class="gensyn">Arrivederci eller på gensyn i Italianissimo</h1>
+
+
+<!-- Footer -->
+
+<footer class="page_footer" id="kontakt">
+  <div class="footer_card">
+    <br>
+    <h1 class="footer_card_heading">Kontakt</h1>
+    <p>
+      Italianissmo 
+      <br>
+      Gl. Munkegade 17, | 8000 Aarhus C 
+      <br>
+      | Tlf.: 86 13 02 52 
+      <br>
+      <br>
+      | post@italianissimo.dk
+    </p>
+  </div>
+  
+  <div class="footer_card">
+    <br>
+    <h1 class="footer_card_heading"></h1>
+    <br>
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe width="278" height="239" id="gmap_canvas" src="https://maps.google.com/maps?q=italianissmo&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+        <a href="https://fmovies2.org"></a>
+        <br>
+        <style>.mapouter{position:relative;text-align:right;height:239px;width:278px;}</style>
+        <a href="https://www.embedgooglemap.net">adding google maps to wordpress</a>
+        <style>.gmap_canvas {overflow:hidden;background:none!important;height:239px;width:278px;}</style>
+      </div>
+    </div>
+    
+  </div> 
+  
+  <div class="footer_card">
+    <br>
+    <h1 class="footer_card_heading">Åbningstider</h1>
+    <p>Mandag Lukket 
+      <br>
+      | Tirsdag – Torsdag kl 11.00 – 17.30 
+      <br>
+      | Fredag kl 11.00 – 18.00 
+      <br>
+      | Lørdag kl 10.00 – 14.00 
+      <br>
+      | Søndag Lukket
+    </p>
+  </div>
+  
+  <div class="footer_card">
+    <br>
+    <h1 class="footer_card_heading"> Følg med her</h1>
+    <div class="media-icons">
+      <a href="https://www.facebook.com/italianissimoaarhus"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/italianissimoaarhus/"><i class="fab fa-instagram"></i></a>
+    </div>
+    <a href="https://www.findsmiley.dk/46073" target="_blank">
+      <img src="/img/kontrolrapport.png" alt="Kontrolrapport af Italianissimo">
+    </a>
+  </div>
+</footer>
+
+<!-- Script Link -->
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

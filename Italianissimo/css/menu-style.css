@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Italianno', cursive;
+}
+
+p {
+    font-family: 'Arapey', serif;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 1px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #221403; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #221403; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+.menu_container {
+    display: flex; 
+    justify-content: center;
+}
+
+.menu_overskrift {
+    text-decoration: underline;
+}
+
+.menu_card{
+    background:#d6b37a;
+    height: 100%;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2;
+}
+
+.line{
+    max-width: 100%;
+}
+
+hr.dashed1 {
+    border-top: 5px dashed #009640;
+}
+
+hr.dashed2 {
+    border-top: 5px dashed #ffffff;
+}
+
+hr.dashed3 {
+    border-top: 5px dashed #E30613;
+}
+
+.ruccola img {
+    width: 100%;
+}
+  /* menu kort slut */
